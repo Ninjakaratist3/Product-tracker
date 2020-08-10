@@ -1,0 +1,85 @@
+C:\Users\tomas_000\Desktop\Учет товаров на складе\Учет товаров на складе\bin\Debug\Учет товаров на складе.exe.config
+C:\Users\tomas_000\Desktop\Учет товаров на складе\Учет товаров на складе\bin\Debug\Учет товаров на складе.exe
+C:\Users\tomas_000\Desktop\Учет товаров на складе\Учет товаров на складе\bin\Debug\Учет товаров на складе.pdb
+C:\Users\tomas_000\Desktop\Учет товаров на складе\Учет товаров на складе\bin\Debug\EntityFramework.dll
+C:\Users\tomas_000\Desktop\Учет товаров на складе\Учет товаров на складе\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\tomas_000\Desktop\Учет товаров на складе\Учет товаров на складе\bin\Debug\EntityFramework.xml
+C:\Users\tomas_000\Desktop\Учет товаров на складе\Учет товаров на складе\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\tomas_000\Desktop\Учет товаров на складе\Учет товаров на складе\obj\Debug\Учет товаров на складе.csprojAssemblyReference.cache
+C:\Users\tomas_000\Desktop\Учет товаров на складе\Учет товаров на складе\obj\Debug\Учет_товаров_на_складе.Form1.resources
+C:\Users\tomas_000\Desktop\Учет товаров на складе\Учет товаров на складе\obj\Debug\Учет_товаров_на_складе.Properties.Resources.resources
+C:\Users\tomas_000\Desktop\Учет товаров на складе\Учет товаров на складе\obj\Debug\Учет товаров на складе.csproj.GenerateResource.cache
+C:\Users\tomas_000\Desktop\Учет товаров на складе\Учет товаров на складе\obj\Debug\Учет товаров на складе.csproj.CopyComplete
+C:\Users\tomas_000\Desktop\Учет товаров на складе\Учет товаров на складе\obj\Debug\Учет товаров на складе.exe
+C:\Users\tomas_000\Desktop\Учет товаров на складе\Учет товаров на складе\obj\Debug\Учет товаров на складе.pdb
+C:\Users\tomas_000\Desktop\Учет товаров на складе\Учет товаров на складе\obj\Debug\Учет_товаров_на_складе.Form2.resources
+C:\Users\tomas_000\Desktop\Учет товаров на складе\Учет товаров на складе\obj\Debug\Учет_товаров_на_складе.AddWarehouse.resources
+C:\Users\tomas_000\Desktop\Учет товаров на складе\Учет товаров на складе\obj\Debug\Учет_товаров_на_складе.AddSupplier.resources
+C:\Users\tomas_000\Desktop\Учет товаров на складе\Учет товаров на складе\obj\Debug\Учет_товаров_на_складе.ChangeProduct.resources
+C:\Users\Егор\Desktop\Учет товаров на складе\Учет товаров на складе\bin\Debug\Учет товаров на складе.exe.config
+C:\Users\Егор\Desktop\Учет товаров на складе\Учет товаров на складе\bin\Debug\Учет товаров на складе.exe
+C:\Users\Егор\Desktop\Учет товаров на складе\Учет товаров на складе\bin\Debug\Учет товаров на складе.pdb
+C:\Users\Егор\Desktop\Учет товаров на складе\Учет товаров на складе\bin\Debug\EntityFramework.dll
+C:\Users\Егор\Desktop\Учет товаров на складе\Учет товаров на складе\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Егор\Desktop\Учет товаров на складе\Учет товаров на складе\bin\Debug\EntityFramework.xml
+C:\Users\Егор\Desktop\Учет товаров на складе\Учет товаров на складе\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Егор\Desktop\Учет товаров на складе\Учет товаров на складе\obj\Debug\Учет товаров на складе.csprojAssemblyReference.cache
+C:\Users\Егор\Desktop\Учет товаров на складе\Учет товаров на складе\obj\Debug\Учет_товаров_на_складе.AddSupplier.resources
+C:\Users\Егор\Desktop\Учет товаров на складе\Учет товаров на складе\obj\Debug\Учет_товаров_на_складе.AddWarehouse.resources
+C:\Users\Егор\Desktop\Учет товаров на складе\Учет товаров на складе\obj\Debug\Учет_товаров_на_складе.ChangeProduct.resources
+C:\Users\Егор\Desktop\Учет товаров на складе\Учет товаров на складе\obj\Debug\Учет_товаров_на_складе.Form1.resources
+C:\Users\Егор\Desktop\Учет товаров на складе\Учет товаров на складе\obj\Debug\Учет_товаров_на_складе.Form2.resources
+C:\Users\Егор\Desktop\Учет товаров на складе\Учет товаров на складе\obj\Debug\Учет_товаров_на_складе.Properties.Resources.resources
+C:\Users\Егор\Desktop\Учет товаров на складе\Учет товаров на складе\obj\Debug\Учет товаров на складе.csproj.GenerateResource.cache
+C:\Users\Егор\Desktop\Учет товаров на складе\Учет товаров на складе\obj\Debug\Учет товаров на складе.csproj.CoreCompileInputs.cache
+C:\Users\Егор\Desktop\Учет товаров на складе\Учет товаров на складе\obj\Debug\Учет товаров на складе.csproj.CopyComplete
+C:\Users\Егор\Desktop\Учет товаров на складе\Учет товаров на складе\obj\Debug\Учет товаров на складе.exe
+C:\Users\Егор\Desktop\Учет товаров на складе\Учет товаров на складе\obj\Debug\Учет товаров на складе.pdb
+C:\Users\Егор\Desktop\Учет товаров на складе\Учет товаров на складе\obj\Debug\Учет_товаров_на_складе.DeliveryAndDebiting.resources
+C:\Users\Егор\Desktop\Учет товаров на складе\Учет товаров на складе\obj\Debug\Учет_товаров_на_складе.Add.SupplierAndWarehouses.resources
+C:\Users\Егор\Desktop\Курсач\Учет товаров на складе\Учет товаров на складе\bin\Debug\Учет товаров на складе.exe.config
+C:\Users\Егор\Desktop\Курсач\Учет товаров на складе\Учет товаров на складе\bin\Debug\Учет товаров на складе.exe
+C:\Users\Егор\Desktop\Курсач\Учет товаров на складе\Учет товаров на складе\bin\Debug\Учет товаров на складе.pdb
+C:\Users\Егор\Desktop\Курсач\Учет товаров на складе\Учет товаров на складе\bin\Debug\EntityFramework.dll
+C:\Users\Егор\Desktop\Курсач\Учет товаров на складе\Учет товаров на складе\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Егор\Desktop\Курсач\Учет товаров на складе\Учет товаров на складе\bin\Debug\EntityFramework.xml
+C:\Users\Егор\Desktop\Курсач\Учет товаров на складе\Учет товаров на складе\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Егор\Desktop\Курсач\Учет товаров на складе\Учет товаров на складе\obj\Debug\Учет товаров на складе.csprojAssemblyReference.cache
+C:\Users\Егор\Desktop\Курсач\Учет товаров на складе\Учет товаров на складе\obj\Debug\Учет_товаров_на_складе.AddSupplier.resources
+C:\Users\Егор\Desktop\Курсач\Учет товаров на складе\Учет товаров на складе\obj\Debug\Учет_товаров_на_складе.AddWarehouse.resources
+C:\Users\Егор\Desktop\Курсач\Учет товаров на складе\Учет товаров на складе\obj\Debug\Учет_товаров_на_складе.ChangeProduct.resources
+C:\Users\Егор\Desktop\Курсач\Учет товаров на складе\Учет товаров на складе\obj\Debug\Учет_товаров_на_складе.DeliveryAndDebiting.resources
+C:\Users\Егор\Desktop\Курсач\Учет товаров на складе\Учет товаров на складе\obj\Debug\Учет_товаров_на_складе.Add.SupplierAndWarehouses.resources
+C:\Users\Егор\Desktop\Курсач\Учет товаров на складе\Учет товаров на складе\obj\Debug\Учет_товаров_на_складе.Form1.resources
+C:\Users\Егор\Desktop\Курсач\Учет товаров на складе\Учет товаров на складе\obj\Debug\Учет_товаров_на_складе.Form2.resources
+C:\Users\Егор\Desktop\Курсач\Учет товаров на складе\Учет товаров на складе\obj\Debug\Учет_товаров_на_складе.Properties.Resources.resources
+C:\Users\Егор\Desktop\Курсач\Учет товаров на складе\Учет товаров на складе\obj\Debug\Учет товаров на складе.csproj.GenerateResource.cache
+C:\Users\Егор\Desktop\Курсач\Учет товаров на складе\Учет товаров на складе\obj\Debug\Учет товаров на складе.csproj.CoreCompileInputs.cache
+C:\Users\Егор\Desktop\Курсач\Учет товаров на складе\Учет товаров на складе\obj\Debug\Учет товаров на складе.csproj.CopyComplete
+C:\Users\Егор\Desktop\Курсач\Учет товаров на складе\Учет товаров на складе\obj\Debug\Учет товаров на складе.exe
+C:\Users\Егор\Desktop\Курсач\Учет товаров на складе\Учет товаров на складе\obj\Debug\Учет товаров на складе.pdb
+C:\Users\Егор\Desktop\Курсач\Учет товаров на складе\Учет товаров на складе\obj\Debug\Учет_товаров_на_складе.History.resources
+C:\Users\Егор\Desktop\Курсач\Учет товаров на складе\Учет товаров на складе\obj\Debug\Учет_товаров_на_складе.Edition.WarehouseRemove.resources
+C:\Users\Егор\Desktop\Учет товаров на складе (1)\Учет товаров на складе\bin\Debug\Учет товаров на складе.exe.config
+C:\Users\Егор\Desktop\Учет товаров на складе (1)\Учет товаров на складе\bin\Debug\Учет товаров на складе.exe
+C:\Users\Егор\Desktop\Учет товаров на складе (1)\Учет товаров на складе\bin\Debug\Учет товаров на складе.pdb
+C:\Users\Егор\Desktop\Учет товаров на складе (1)\Учет товаров на складе\bin\Debug\EntityFramework.dll
+C:\Users\Егор\Desktop\Учет товаров на складе (1)\Учет товаров на складе\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Егор\Desktop\Учет товаров на складе (1)\Учет товаров на складе\bin\Debug\EntityFramework.xml
+C:\Users\Егор\Desktop\Учет товаров на складе (1)\Учет товаров на складе\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Егор\Desktop\Учет товаров на складе (1)\Учет товаров на складе\obj\Debug\Учет товаров на складе.csprojAssemblyReference.cache
+C:\Users\Егор\Desktop\Учет товаров на складе (1)\Учет товаров на складе\obj\Debug\Учет_товаров_на_складе.AddSupplier.resources
+C:\Users\Егор\Desktop\Учет товаров на складе (1)\Учет товаров на складе\obj\Debug\Учет_товаров_на_складе.AddWarehouse.resources
+C:\Users\Егор\Desktop\Учет товаров на складе (1)\Учет товаров на складе\obj\Debug\Учет_товаров_на_складе.ChangeProduct.resources
+C:\Users\Егор\Desktop\Учет товаров на складе (1)\Учет товаров на складе\obj\Debug\Учет_товаров_на_складе.DeliveryAndDebiting.resources
+C:\Users\Егор\Desktop\Учет товаров на складе (1)\Учет товаров на складе\obj\Debug\Учет_товаров_на_складе.Add.SupplierAndWarehouses.resources
+C:\Users\Егор\Desktop\Учет товаров на складе (1)\Учет товаров на складе\obj\Debug\Учет_товаров_на_складе.Edition.WarehouseRemove.resources
+C:\Users\Егор\Desktop\Учет товаров на складе (1)\Учет товаров на складе\obj\Debug\Учет_товаров_на_складе.MainForm.resources
+C:\Users\Егор\Desktop\Учет товаров на складе (1)\Учет товаров на складе\obj\Debug\Учет_товаров_на_складе.AddProduct.resources
+C:\Users\Егор\Desktop\Учет товаров на складе (1)\Учет товаров на складе\obj\Debug\Учет_товаров_на_складе.History.resources
+C:\Users\Егор\Desktop\Учет товаров на складе (1)\Учет товаров на складе\obj\Debug\Учет_товаров_на_складе.Properties.Resources.resources
+C:\Users\Егор\Desktop\Учет товаров на складе (1)\Учет товаров на складе\obj\Debug\Учет товаров на складе.csproj.GenerateResource.cache
+C:\Users\Егор\Desktop\Учет товаров на складе (1)\Учет товаров на складе\obj\Debug\Учет товаров на складе.csproj.CoreCompileInputs.cache
+C:\Users\Егор\Desktop\Учет товаров на складе (1)\Учет товаров на складе\obj\Debug\Учет товаров на складе.csproj.CopyComplete
+C:\Users\Егор\Desktop\Учет товаров на складе (1)\Учет товаров на складе\obj\Debug\Учет товаров на складе.exe
+C:\Users\Егор\Desktop\Учет товаров на складе (1)\Учет товаров на складе\obj\Debug\Учет товаров на складе.pdb
