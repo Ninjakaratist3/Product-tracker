@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Windows.Forms;
-using Учет_товаров_на_складе.DataBase;
+using Учет_товаров_на_складе.Models;
 
 namespace Учет_товаров_на_складе
 {

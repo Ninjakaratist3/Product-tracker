@@ -1,9 +1,9 @@
-﻿using Edition;
+﻿using Services;
 using System;
 using System.Data;
 using System.Linq;
 using System.Windows.Forms;
-using Учет_товаров_на_складе.DataBase;
+using Учет_товаров_на_складе.Models;
 
 
 namespace Учет_товаров_на_складе
@@ -11,6 +11,7 @@ namespace Учет_товаров_на_складе
     public partial class ChangeProduct : Form
     {
         public string productName;
+        private IEditor _editor;
 
         public ChangeProduct()
         {
@@ -52,14 +53,24 @@ namespace Учет_товаров_на_складе
 
         private void button1_Click(object sender, EventArgs e)
         {
-            // Новые значения
-            string[] fields = new string[] 
+            _editor = new Change();
+
+            Product product;
+
+            using (GoodsContext db = new GoodsContext())
             {
-                productName, textBox1.Text, textBox3.Text, comboBox1.Text, comboBox2.Text
-            };
-            Change change = new Change();
+                product = new Product()
+                {
+                    Id = db.Products.Where(pr => pr.Name == productName).FirstOrDefault().Id,
+                    Name = textBox1.Text,
+                    Price = Convert.ToDouble(textBox3.Text),
+                    Supplier = db.Suppliers.Where(sup => sup.CompanyName == comboBox1.Text).FirstOrDefault(),
+                    Warehouse = db.Warehouses.Where(w => w.Address == comboBox2.Text).FirstOrDefault(),
+                };
+            }
+
             // Изменение
-            change.Product(fields);
+            _editor.Product(product);
             Close();
         }
     }

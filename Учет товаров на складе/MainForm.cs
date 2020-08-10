@@ -1,16 +1,18 @@
-﻿using Edition;
+﻿using Services;
 using System;
 using System.Data;
 using System.Data.Entity;
 using System.Linq;
 using System.Windows.Forms;
 using Учет_товаров_на_складе.Add;
-using Учет_товаров_на_складе.DataBase;
+using Учет_товаров_на_складе.Models;
 
 namespace Учет_товаров_на_складе
 {
     public partial class MainForm : Form
     {
+        private IEditor _editor;
+
         public MainForm()
         {
             InitializeComponent();
@@ -18,13 +20,13 @@ namespace Учет_товаров_на_складе
         }
 
         // Очищает таблицу и заполняет ее товарами из БД
-        private void DataLoad ()
+        private async void DataLoad ()
         {
             dataGridView1.Rows.Clear();
             using (GoodsContext db = new GoodsContext())
             {
                 // Получение всех продуктов
-                var ListOfProducts = db.Products.ToList();
+                var ListOfProducts = await db.Products.ToListAsync();
                 // Вывод продуктов в таблицу
                 foreach (var product in ListOfProducts)
                 {
@@ -45,9 +47,14 @@ namespace Учет_товаров_на_складе
         // Удаление из таблицы и БД
         private void button2_Click(object sender, EventArgs e)
         {
+            _editor = new Remove();
             string name = Convert.ToString(dataGridView1.SelectedCells[0].Value);
-            Remove remove = new Remove();
-            remove.Product(name);
+            Product product = new Product();
+            using (GoodsContext db = new GoodsContext())
+            {
+                product.Id = db.Products.Where(pr => pr.Name == name).FirstOrDefault().Id;
+            }
+            _editor.Product(product);
             DataLoad();
         }
 

@@ -1,8 +1,8 @@
 ﻿using Учет_товаров_на_складе.Models;
 
-namespace Edition
+namespace Services
 {
-    interface IComponents
+    interface IEditor
     {
         void Product(Product product);
         void Supplier(Supplier supplier);

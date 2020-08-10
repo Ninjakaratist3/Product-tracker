@@ -3,11 +3,11 @@ using System.Windows.Forms;
 using Учет_товаров_на_складе.Models;
 using Учет_товаров_на_складе.Edition;
 
-namespace Edition
+namespace Services
 {
-    public class Remove : IComponents
+    public class Remove : IEditor
     {
-        public void Product(Product _product)
+        public async void Product(Product _product)
         {
             using (GoodsContext db = new GoodsContext())
             {
@@ -16,11 +16,11 @@ namespace Edition
 
                 // Удаление
                 db.Products.Remove(DeleteProduct);
-                db.SaveChanges();
+                await db.SaveChangesAsync();
             }
         }
 
-        public void Supplier(Supplier _supplier)
+        public async void Supplier(Supplier _supplier)
         {
             using (GoodsContext db = new GoodsContext())
             {
@@ -46,11 +46,11 @@ namespace Edition
 
                 // Удаление
                 db.Suppliers.Remove(delItem);
-                db.SaveChanges();
+                await db.SaveChangesAsync();
             }
         }
 
-        public void Warehouse(Warehouse _warehouse)
+        public async void Warehouse(Warehouse _warehouse)
         {
             using (GoodsContext db = new GoodsContext())
             {
@@ -96,7 +96,7 @@ namespace Edition
 
                 // Удаление
                 db.Warehouses.Remove(delItem);
-                db.SaveChanges();
+                await db.SaveChangesAsync();
             }
         }
     }

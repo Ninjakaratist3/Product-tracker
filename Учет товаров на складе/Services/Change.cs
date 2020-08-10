@@ -3,13 +3,12 @@ using System.Linq;
 using System.Windows.Forms;
 using Учет_товаров_на_складе.Models;
 
-namespace Edition
+namespace Services
 {
-    class Change : IComponents
+    class Change : IEditor
     {
-        public void Product(Product _product)
+        public async void Product(Product _product)
         {
-            string сompanyName = _product.Supplier.CompanyName;
             using (GoodsContext db = new GoodsContext())
             {
                 var product = db.Products.Where(pr => pr.Id == _product.Id).FirstOrDefault();
@@ -28,11 +27,11 @@ namespace Edition
 
                 try
                 {
-                    product.SupplierId = _product.SupplierId;
+                    product.SupplierId = _product.Supplier.Id;
                 }
                 catch
                 {
-                    if (!(сompanyName == ""))
+                    if (!(_product.Supplier.CompanyName == ""))
                     {
                         MessageBox.Show("Такого поставщика нет в базе", "Ошибка ввода", MessageBoxButtons.OK, MessageBoxIcon.Error);
                         return;
@@ -41,7 +40,7 @@ namespace Edition
 
                 try
                 {
-                    product.WarehouseId = _product.WarehouseId;
+                    product.WarehouseId = _product.Warehouse.Id;
                 }
                 catch
                 {
@@ -49,11 +48,11 @@ namespace Edition
                     return;
                 }
 
-                db.SaveChanges();
+                await db.SaveChangesAsync();
             }
         }
 
-        public void Supplier(Supplier _supplier)
+        public async void Supplier(Supplier _supplier)
         {
             using (GoodsContext db = new GoodsContext())
             {
@@ -72,11 +71,11 @@ namespace Edition
                 // Сохраняем изменения
                 supplier.CompanyName = _supplier.CompanyName;
                 supplier.Contacts = _supplier.Contacts;
-                db.SaveChanges();
+                await db.SaveChangesAsync();
             }
         }
 
-        public void Warehouse(Warehouse _warehouse)
+        public async void Warehouse(Warehouse _warehouse)
         {
             using (GoodsContext db = new GoodsContext())
             {
@@ -94,7 +93,7 @@ namespace Edition
 
                 // Сохраняем изменения
                 warehouse.Address = _warehouse.Address;
-                db.SaveChanges();
+                await db.SaveChangesAsync();
             }
         }
     }

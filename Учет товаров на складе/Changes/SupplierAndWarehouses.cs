@@ -1,15 +1,17 @@
-﻿using Edition;
+﻿using Services;
 using System;
 using System.Data;
 using System.Linq;
 using System.Windows.Forms;
-using Учет_товаров_на_складе.DataBase;
+using Учет_товаров_на_складе.Models;
 
 namespace Учет_товаров_на_складе.Add
 {
     // Класс для редактирования поставщиков и складов
     public partial class SupplierAndWarehouses : Form
     {
+        private IEditor _editor;
+
         public SupplierAndWarehouses()
         {
             InitializeComponent();
@@ -30,7 +32,7 @@ namespace Учет_товаров_на_складе.Add
         {
             bool notEmpty = true;
             comboBox2.Items.Clear();
-            // Заполнение 2 выпадающего спичка относительно 1
+            // Заполнение 2 выпадающего спиcка относительно 1
             using (GoodsContext db = new GoodsContext()) 
             {
                 // Если в первом выбран "Поставщик"
@@ -101,11 +103,31 @@ namespace Учет_товаров_на_складе.Add
             }
             if (error)
             {
-                Remove remove = new Remove();
+                _editor = new Remove();
                 if (comboBox1.SelectedItem.ToString() == "Поставщик")
-                    remove.Supplier(comboBox2.Text);
+                {
+                    Supplier supplier;
+                    using (GoodsContext db = new GoodsContext())
+                    {
+                        supplier = new Supplier()
+                        {
+                            Id = db.Suppliers.Where(sup => sup.CompanyName == comboBox2.Text).FirstOrDefault().Id
+                        };
+                    }
+                    _editor.Supplier(supplier);
+                }
                 else if (comboBox1.SelectedItem.ToString() == "Склад")
-                    remove.Warehouse(comboBox2.Text);
+                {
+                    Warehouse warehouse;
+                    using (GoodsContext db = new GoodsContext())
+                    {
+                        warehouse = new Warehouse()
+                        {
+                            Id = db.Warehouses.Where(w => w.Address == comboBox2.Text).FirstOrDefault().Id
+                        };
+                    }
+                    _editor.Warehouse(warehouse);
+                }
                 Close();
             }
         }
@@ -123,11 +145,34 @@ namespace Учет_товаров_на_складе.Add
 
             if (error) 
             {
-                Change change = new Change();
+                _editor = new Change();
                 if (comboBox1.SelectedItem.ToString() == "Поставщик")
-                    change.Supplier(comboBox2.Text, textBox1.Text, textBox2.Text);
+                {
+                    Supplier supplier;
+                    using (GoodsContext db = new GoodsContext())
+                    {
+                        supplier = new Supplier()
+                        {
+                            Id = db.Suppliers.Where(sup => sup.CompanyName == comboBox2.Text).FirstOrDefault().Id,
+                            CompanyName = textBox1.Text,
+                            Contacts = textBox2.Text
+                        };
+                    }
+                    _editor.Supplier(supplier);
+                }
                 else
-                    change.Warehouse(comboBox2.Text, textBox1.Text);
+                {
+                    Warehouse warehouse;
+                    using (GoodsContext db = new GoodsContext())
+                    {
+                        warehouse = new Warehouse()
+                        {
+                            Id = db.Warehouses.Where(w => w.Address == comboBox2.Text).FirstOrDefault().Id,
+                            Address = textBox1.Text
+                        };
+                    }
+                    _editor.Warehouse(warehouse);
+                }
                 Close();
             }
         }

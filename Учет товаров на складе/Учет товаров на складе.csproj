@@ -94,7 +94,7 @@
       <DependentUpon>DeliveryAndDebiting.cs</DependentUpon>
     </Compile>
     <Compile Include="Services\Change.cs" />
-    <Compile Include="Services\IComponents.cs" />
+    <Compile Include="Services\IEditor.cs" />
     <Compile Include="Services\Remove.cs" />
     <Compile Include="Services\WarehouseRemove.cs">
       <SubType>Form</SubType>
