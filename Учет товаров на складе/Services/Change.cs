@@ -7,7 +7,7 @@ namespace Services
 {
     class Change : IEditor
     {
-        public async void Product(Product _product)
+        public void Product(Product _product)
         {
             using (GoodsContext db = new GoodsContext())
             {
@@ -48,11 +48,11 @@ namespace Services
                     return;
                 }
 
-                await db.SaveChangesAsync();
+                db.SaveChanges();
             }
         }
 
-        public async void Supplier(Supplier _supplier)
+        public void Supplier(Supplier _supplier)
         {
             using (GoodsContext db = new GoodsContext())
             {
@@ -71,11 +71,11 @@ namespace Services
                 // Сохраняем изменения
                 supplier.CompanyName = _supplier.CompanyName;
                 supplier.Contacts = _supplier.Contacts;
-                await db.SaveChangesAsync();
+                db.SaveChanges();
             }
         }
 
-        public async void Warehouse(Warehouse _warehouse)
+        public void Warehouse(Warehouse _warehouse)
         {
             using (GoodsContext db = new GoodsContext())
             {
@@ -93,7 +93,7 @@ namespace Services
 
                 // Сохраняем изменения
                 warehouse.Address = _warehouse.Address;
-                await db.SaveChangesAsync();
+                db.SaveChanges();
             }
         }
     }

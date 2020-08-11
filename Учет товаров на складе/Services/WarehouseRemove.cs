@@ -51,17 +51,17 @@ namespace Учет_товаров_на_складе.Edition
 
         private void button3_Click(object sender, EventArgs e)
         {
-            bool error = true;
+            bool error = false;
             using (GoodsContext db = new GoodsContext())
             {
                 var warehouses = db.Warehouses.Where(item => item.Address != delAddress).Select(item => item.Address).ToArray();
                 if (!warehouses.Contains(comboBox1.Text))
                 {
                     MessageBox.Show("Такого склада нет в базе", "Ошибка ввода", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                    error = false;
+                    error = true;
                 }
             }
-            if (error)
+            if (!error)
                 Close();
         }
     }

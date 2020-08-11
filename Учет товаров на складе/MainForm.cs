@@ -20,13 +20,13 @@ namespace Учет_товаров_на_складе
         }
 
         // Очищает таблицу и заполняет ее товарами из БД
-        private async void DataLoad ()
+        public void DataLoad()
         {
             dataGridView1.Rows.Clear();
             using (GoodsContext db = new GoodsContext())
             {
                 // Получение всех продуктов
-                var ListOfProducts = await db.Products.ToListAsync();
+                var ListOfProducts = db.Products.ToList();
                 // Вывод продуктов в таблицу
                 foreach (var product in ListOfProducts)
                 {

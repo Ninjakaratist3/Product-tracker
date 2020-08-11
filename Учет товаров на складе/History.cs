@@ -20,10 +20,10 @@ namespace Учет_товаров_на_складе
 
         private void button1_Click(object sender, EventArgs e)
         {
-            textBox1.Text = "";
-            StreamWriter writer = new StreamWriter(path);
-            writer.WriteLine();
-            writer.Close();
+            //textBox1.Text = "";
+            //StreamWriter writer = new StreamWriter(path);
+            //writer.WriteLine();
+            //writer.Close();
         }
 
         private void History_Load(object sender, EventArgs e)
